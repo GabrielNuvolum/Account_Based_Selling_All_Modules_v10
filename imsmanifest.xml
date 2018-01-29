@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest identifier="Course_ID1" version="1.0" 
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<adlcp:location>metadata.xml</adlcp:location> 
+	</metadata>
+	<organizations default="Course_ID1_ORG">
+		<organization identifier="Course_ID1_ORG">
+			<title>Account Based Selling</title>
+			<item identifier="SCO_ID1" isvisible="true" identifierref="SCO_ID1_RES">
+				<title>Course Object title</title>
+			</item>
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>	
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="SCO_ID1_RES" type="webcontent" href="multiscreen.html" adlcp:scormtype="sco">
+			
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>
+			
+			<file href="Account_Based_Selling_All_Modules_v10.swf"/>
+		    <file href="Account_Based_Selling_All_Modules_v10.htm"/>
+			<file href="scormdriver.js"/>
+			<file href="browsersniff.js"/>
+			
+<file href="Module2_AECOM_Video(2).mp4"/> 
+<file href="Module2_MikeSmith_Video(2).mp4"/> 
+<file href="Module4_Slide8.mp4"/> 
+<file href="Module5_InsightMaps.mp4"/> 
+<file href="Module6_WhitespaceHeatmap.mp4"/> 
+<file href="Module7_CISCO.mp4"/> 
+<file href="Module7_LUMA.mp4"/> 
+<file href="Module8_ActionPlan.mp4"/> 
+<file href="Module8_Parsons.mp4"/> 
+<file href="SCORM_utilities.js"/> 
+<file href="Utilities.js"/> 
+<file href="standard.js"/> 
+<file href="captivate.css"/> 
+<file href="assets/css/CPLibraryAll.css"/> 
+<file href="assets/js/CPM.js"/> 
+<file href="assets/js/CPXHRLoader.js"/> 
+<file href="assets/js/jquery-1.11.3.min.js"/> 
+<file href="dr/imgmd.json"/> 
+<file href="index_scorm.html"/> 
+<file href="multiscreen.html"/>
+		</resource>
+	</resources>
+</manifest>
